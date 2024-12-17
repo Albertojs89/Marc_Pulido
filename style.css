@@ -1,0 +1,187 @@
+body {
+  width: 1300;
+  height: 1500px;
+  background-color: hsla(204, 0%, 100%, 1);
+  background-image: radial-gradient(
+      circle at 0% 0%,
+      hsla(295.99999999999994, 77%, 74%, 0.35) 3.1210986267166043%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 20% 0%,
+      hsla(236.91176470588243, 77%, 74%, 0.35) 3.1210986267166043%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 40% 0%,
+      hsla(186.61764705882354, 77%, 74%, 0.35) 3.1210986267166043%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 60% 0%,
+      hsla(127.0588235294118, 77%, 74%, 0.35) 3.1210986267166043%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 80% 0%,
+      hsla(62.20588235294117, 77%, 74%, 0.35) 3.1210986267166043%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 100% 0%,
+      hsla(23.823529411764703, 77%, 74%, 0.35) 3%,
+      transparent 40%
+    );
+  background-blend-mode: normal, normal, normal, normal, normal, normal;
+}
+a {
+    text-decoration: none; /* Eliminar el subrayado de los enlaces */
+    color:inherit;
+}
+ul, ol {
+    list-style: none; /* Eliminar los puntos o números de las listas */
+    padding: 0; /* Eliminar el padding */
+    margin: 0; /* Eliminar el margin */
+}
+.img-container {
+  overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+  position: relative; /* Para que el zoom funcione correctamente */
+  border-radius: 10px; /* Aplica el border-radius aquí */
+}
+
+.img-container img {
+  width: 300px; /* Ancho fijo de 300px */
+  height: 500px; /* Alto fijo de 100px */
+  object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+  transition: transform 0.5s ease; /* Suaviza la transición del zoom */
+}
+
+.img-container:hover img {
+  transform: scale(1.2); /* Zoom al pasar el ratón */
+}
+
+.col-auto {
+  padding: 0; /* Elimina el padding de las columnas */
+}
+header{
+    margin-top: 60px;
+}
+header ul{
+  display: flex;
+  
+}
+header ul li{
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(155, 67, 67);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Fjalla One", sans-serif;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Fjalla One", sans-serif;
+}
+.titulo {
+  font-size: 50px;
+  color: rgb(90, 115, 143);
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Suaviza la transición */
+}
+.titulo2 {
+  
+  color: rgb(90, 115, 143);
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Suaviza la transición */
+}
+
+
+/* efecto para que aparezca el texto al hacer hover */
+
+.img-hover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.img-hover-container img {
+  display: block;
+}
+
+.hover-text {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  color: rgb(156, 58, 58);
+  font-family: "Fjalla One", sans-serif;
+  font-size: 35px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  
+}
+
+
+
+.hover-text2 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: rgb(90, 115, 143);
+  font-family: "Fjalla One", sans-serif;
+  font-size: 35px;
+  padding: 5px 10px;
+  border-radius: 5px;
+ 
+}
+
+.img-hover-container:hover .hover-text2 {
+  opacity: 1;
+}
+
+
+
+.img-hover-container:hover .hover-text3 {
+  opacity: 1;
+}
+
+.pregunta{
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.pregunta div{
+  margin: 100px;
+  padding: 20px;
+  border: 1px solid white;
+  background-color: rgb(205, 205, 236);
+  padding: 30px 20px 30px 20px;
+}
+
+.fa-brands{
+  font-size: 30px;
+}
+
+.btn{
+  border-radius: 10px;
+}
+h2{
+  color: rgb(173, 57, 72)!important;
+}
+
+
+.container-fluid{
+  width: 900px !important;
+  margin-top: 50px;
+}
+
+.princi-box{
+  background-color: beige;
+  border-radius: 15px;
+}
+
+#gestionCitas{
+  width: 600px;
+  margin-top: 400px;
+}
